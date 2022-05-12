@@ -11,12 +11,12 @@ h1{
 img{
     width: 500px;
 }
+section{
+    padding-left:4rem;
+}
 .profile-photo{
     width: 500px;
-    height: 500px;
-    float: right;
-    padding-left: 2rem;
-    
+    float: right;  
 }
 .profile-info{
     width: 50%;
