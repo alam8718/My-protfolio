@@ -1,0 +1,24 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    
+    font-size: 40px;
+}
+#name-highlight{
+    color: rgb(235, 170, 5);
+}
+img{
+    width: 500px;
+}
+.profile-photo{
+    width: 500px;
+    height: 500px;
+    float: right;
+    padding-left: 2rem;
+    
+}
+.profile-info{
+    width: 50%;
+    display: inline-block;
+}
