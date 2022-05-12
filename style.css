@@ -1,12 +1,19 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
 }
 h1{
     
     font-size: 40px;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 #name-highlight{
     color: rgb(235, 170, 5);
@@ -31,7 +38,7 @@ h2{
 }
 section{
     height: 500px;
-    margin-bottom: 150px;
+    margin-bottom: 130px;
 }
 /* hire button  */
 .hire{
@@ -54,7 +61,7 @@ section{
 .profile-photo2{
     width: 500px;
     float: left;  
-   
+    
 }
 .profile-photo2 img{
     width: 100%;
@@ -64,4 +71,34 @@ section{
     background-image: url("image/dream-bg.png");
     background-position: right;
     background-repeat: no-repeat;
+}
+
+/* mid banner  ends */
+
+/* experience section  */
+.half-width h4{
+    color: rgb(236, 178, 32);
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid rgb(101, 101, 194);
+}
+#baby-stack{
+    border-left: 7px solid #A8EB12;
+}
+/* experience section ends */
+
+footer{
+    text-align: center;
+    font-size: 12px;
 }
